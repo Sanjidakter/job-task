@@ -1,0 +1,83 @@
+.card {
+  width: 18rem;
+  margin: 10px;
+}
+.card-body {
+  overflow-y: auto;
+  max-height: 200px;
+}
+.scrollable-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.class-one,
+.class-two,
+.class-three,
+.class-four,
+.class-five {
+  flex: 1;
+  /* overflow-y: auto; */
+  /* overflow-x: auto; */
+  
+}
+.attachment-icon {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.name{
+    margin-left: 15%;
+}
+
+.half-circle {
+  width: 20px;
+  height: 40px;
+  background-color: skyblue; /* Replace with the desired color */
+  border-radius: 0 50% 50% 0;
+}
+
+/* Style for the modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Style for the modal content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* Style for the close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Add this to your CSS */
+#fileList {
+  list-style: none;
+  padding: 0;
+}
+
+#fileList li {
+  margin-bottom: 5px;
+}
