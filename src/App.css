@@ -1,10 +1,10 @@
 .card {
-  width: 18rem;
+  width: 24rem;
   margin: 10px;
 }
 .card-body {
   overflow-y: auto;
-  max-height: 200px;
+  max-height: 300px;
 }
 .scrollable-container {
   display: flex;
@@ -16,6 +16,8 @@
 .class-three,
 .class-four,
 .class-five {
+  padding: 2%;
+  background-color: antiquewhite;
   flex: 1;
   /* overflow-y: auto; */
   /* overflow-x: auto; */
@@ -29,10 +31,22 @@
     margin-left: 15%;
 }
 
-.half-circle {
+.half-circle-one {
+  width: 20px;
+  height: 40px;
+  background-color: red; /* Replace with the desired color */
+  border-radius: 0 50% 50% 0;
+}
+.half-circle-two {
   width: 20px;
   height: 40px;
   background-color: skyblue; /* Replace with the desired color */
+  border-radius: 0 50% 50% 0;
+}
+.half-circle-three {
+  width: 20px;
+  height: 40px;
+  background-color: yellow; /* Replace with the desired color */
   border-radius: 0 50% 50% 0;
 }
 
@@ -80,4 +94,7 @@
 
 #fileList li {
   margin-bottom: 5px;
+}
+.custom-background {
+  background-color: #f8f9fa; /* Use your preferred off-white color */
 }
