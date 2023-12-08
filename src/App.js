@@ -122,7 +122,7 @@ function LoadTasks() {
 
   return (
     <div className="p-10">
-      <h3>tasks:{tasks.length}</h3>
+      {/* <h3>tasks:{tasks.length}</h3> */}
       <div className="container">
         <div className="scrollable-container">
           {/* Class One Cards */}
@@ -172,7 +172,7 @@ function LoadTasks() {
                         style={{
                           width: "40px",
                           height: "30px",
-                          marginRight: "10px",
+                          marginRight: "20px",
                         }}
                         src={task.imgLink}
                         alt=""
@@ -222,7 +222,7 @@ function LoadTasks() {
               <h4 className="name">To Do</h4>
             </div>
             {tasks.map((task) => (
-              <div className="card" key={task.id}>
+              <div className="card"  key={task.id}>
                 {/* Left-top image */}
                 <div className="d-flex justify-content-start align-items-start p-2">
                   <img
@@ -262,7 +262,7 @@ function LoadTasks() {
                         style={{
                           width: "40px",
                           height: "30px",
-                          marginRight: "10px",
+                          marginRight: "20px",
                         }}
                         src={task.imgLink}
                         alt=""
@@ -352,7 +352,7 @@ function LoadTasks() {
                         style={{
                           width: "40px",
                           height: "30px",
-                          marginRight: "10px",
+                          marginRight: "20px",
                         }}
                         src={task.imgLink}
                         alt=""
@@ -532,7 +532,7 @@ function LoadTasks() {
                         style={{
                           width: "40px",
                           height: "30px",
-                          marginRight: "10px",
+                          marginRight: "20px",
                         }}
                         src={task.imgLink}
                         alt=""
